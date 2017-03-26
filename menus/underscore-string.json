@@ -1,0 +1,247 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "underscore.string",
+        "submenu": [
+          {
+            "label": "camelize",
+            "command": "underscore-string:camelize"
+          },
+          {
+            "label": "capitalize",
+            "command": "underscore-string:capitalize"
+          },
+          {
+            "label": "chars",
+            "command": "underscore-string:chars"
+          },
+          {
+            "label": "classify",
+            "command": "underscore-string:classify"
+          },
+          {
+            "label": "clean",
+            "command": "underscore-string:clean"
+          },
+          {
+            "label": "cleanDiacritics",
+            "command": "underscore-string:cleanDiacritics"
+          },
+          {
+            "label": "dasherize",
+            "command": "underscore-string:dasherize"
+          },
+          {
+            "label": "decapitalize",
+            "command": "underscore-string:decapitalize"
+          },
+          {
+            "label": "escapeHTML",
+            "command": "underscore-string:escapeHTML"
+          },
+          {
+            "label": "escapeRegExp",
+            "command": "underscore-string:escapeRegExp"
+          },
+          {
+            "label": "humanize",
+            "command": "underscore-string:humanize"
+          },
+          {
+            "label": "lines",
+            "command": "underscore-string:lines"
+          },
+          {
+            "label": "ltrim",
+            "command": "underscore-string:ltrim"
+          },
+          {
+            "label": "pred",
+            "command": "underscore-string:pred"
+          },
+          {
+            "label": "quote",
+            "command": "underscore-string:quote"
+          },
+          {
+            "label": "reverse",
+            "command": "underscore-string:reverse"
+          },
+          {
+            "label": "rtrim",
+            "command": "underscore-string:rtrim"
+          },
+          {
+            "label": "slugify",
+            "command": "underscore-string:slugify"
+          },
+          {
+            "label": "stripTags",
+            "command": "underscore-string:stripTags"
+          },
+          {
+            "label": "succ",
+            "command": "underscore-string:succ"
+          },
+          {
+            "label": "swapCase",
+            "command": "underscore-string:swapCase"
+          },
+          {
+            "label": "titleize",
+            "command": "underscore-string:titleize"
+          },
+          {
+            "label": "toNumber",
+            "command": "underscore-string:toNumber"
+          },
+          {
+            "label": "trim",
+            "command": "underscore-string:trim"
+          },
+          {
+            "label": "underscored",
+            "command": "underscore-string:underscored"
+          },
+          {
+            "label": "unescapeHTML",
+            "command": "underscore-string:unescapeHTML"
+          },
+          {
+            "label": "unquote",
+            "command": "underscore-string:unquote"
+          },
+          {
+            "label": "words",
+            "command": "underscore-string:words"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "underscore.string",
+          "submenu": [
+            {
+              "label": "camelize",
+              "command": "underscore-string:camelize"
+            },
+            {
+              "label": "capitalize",
+              "command": "underscore-string:capitalize"
+            },
+            {
+              "label": "chars",
+              "command": "underscore-string:chars"
+            },
+            {
+              "label": "classify",
+              "command": "underscore-string:classify"
+            },
+            {
+              "label": "clean",
+              "command": "underscore-string:clean"
+            },
+            {
+              "label": "cleanDiacritics",
+              "command": "underscore-string:cleanDiacritics"
+            },
+            {
+              "label": "dasherize",
+              "command": "underscore-string:dasherize"
+            },
+            {
+              "label": "decapitalize",
+              "command": "underscore-string:decapitalize"
+            },
+            {
+              "label": "escapeHTML",
+              "command": "underscore-string:escapeHTML"
+            },
+            {
+              "label": "escapeRegExp",
+              "command": "underscore-string:escapeRegExp"
+            },
+            {
+              "label": "humanize",
+              "command": "underscore-string:humanize"
+            },
+            {
+              "label": "lines",
+              "command": "underscore-string:lines"
+            },
+            {
+              "label": "ltrim",
+              "command": "underscore-string:ltrim"
+            },
+            {
+              "label": "pred",
+              "command": "underscore-string:pred"
+            },
+            {
+              "label": "quote",
+              "command": "underscore-string:quote"
+            },
+            {
+              "label": "reverse",
+              "command": "underscore-string:reverse"
+            },
+            {
+              "label": "rtrim",
+              "command": "underscore-string:rtrim"
+            },
+            {
+              "label": "slugify",
+              "command": "underscore-string:slugify"
+            },
+            {
+              "label": "stripTags",
+              "command": "underscore-string:stripTags"
+            },
+            {
+              "label": "succ",
+              "command": "underscore-string:succ"
+            },
+            {
+              "label": "swapCase",
+              "command": "underscore-string:swapCase"
+            },
+            {
+              "label": "titleize",
+              "command": "underscore-string:titleize"
+            },
+            {
+              "label": "toNumber",
+              "command": "underscore-string:toNumber"
+            },
+            {
+              "label": "trim",
+              "command": "underscore-string:trim"
+            },
+            {
+              "label": "underscored",
+              "command": "underscore-string:underscored"
+            },
+            {
+              "label": "unescapeHTML",
+              "command": "underscore-string:unescapeHTML"
+            },
+            {
+              "label": "unquote",
+              "command": "underscore-string:unquote"
+            },
+            {
+              "label": "words",
+              "command": "underscore-string:words"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "underscore-string",
+  "main": "./lib/underscore-string",
+  "version": "0.0.0",
+  "description": "String manipulation functions",
+  "keywords": [
+    "underscore.string",
+    "string",
+    "manipulation"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "build": "npm run update-menus && npm run update-activation-commands",
+    "update-menus": "node ./helper/build-menus.js",
+    "update-activation-commands": "node ./helper/build-activation-commands.js"
+  },
+  "activationCommands": {
+    "atom-workspace": [
+      "underscore-string:camelize",
+      "underscore-string:capitalize",
+      "underscore-string:chars",
+      "underscore-string:classify",
+      "underscore-string:clean",
+      "underscore-string:cleanDiacritics",
+      "underscore-string:dasherize",
+      "underscore-string:decapitalize",
+      "underscore-string:escapeHTML",
+      "underscore-string:escapeRegExp",
+      "underscore-string:humanize",
+      "underscore-string:lines",
+      "underscore-string:ltrim",
+      "underscore-string:pred",
+      "underscore-string:quote",
+      "underscore-string:reverse",
+      "underscore-string:rtrim",
+      "underscore-string:slugify",
+      "underscore-string:stripTags",
+      "underscore-string:succ",
+      "underscore-string:swapCase",
+      "underscore-string:titleize",
+      "underscore-string:toNumber",
+      "underscore-string:trim",
+      "underscore-string:underscored",
+      "underscore-string:unescapeHTML",
+      "underscore-string:unquote",
+      "underscore-string:words"
+    ]
+  },
+  "repository": "https://github.com/MethodGrab/atom-underscore-string",
+  "license": "ISC",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "underscore.string": "^3.3.4"
+  },
+  "devDependencies": {
+    "@methodgrab/eslint-config-standard": "^0.10.0",
+    "eslint": "^3.18.0"
+  }
+}
