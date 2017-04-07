@@ -1,0 +1,34 @@
+language: generic
+env:
+  global:
+  - APM_TEST_PACKAGES=""
+  - ATOM_LINT_WITH_BUNDLED_NODE="true"
+  matrix:
+  - ATOM_CHANNEL=stable
+  - ATOM_CHANNEL=beta
+os:
+- linux
+- osx
+script:
+- curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
+- chmod u+x build-package.sh
+- "./build-package.sh"
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+  slack:
+    secure: b8l5m7gXL+kuIhWBCNUbxwbdHy/sW4+udhw+h5HOko7WbPuBu1foyRQb8prnCa64GGJ8BKFwvSLdGO5W9m/3CgN8qfLyC0PIBfqP9QPtK9a+nL+reltDwbbK/a53Rc1hkecfL9apveBC6RuN4Bx0eWIIitlqv7nkK8FiOSOCGpOLe8bUNvK7B7FX8MBb/O+EL+a9UzevtOhFP1xOByT9it7v2D/LuHWPYBdwUxhpAps5dnLpwOCK3VXnJlPPt7JojIa1PjoyP36oFUwaLrg4vfNW94IxjAyK7muvfw3n/bAe+Sl57LfPD4R5udxXiswsQQs7XZf6RV/ctmnNTjKOwXyGaxt4qiyeDzs0RKzkKM3XItLf42hUGjsG23txzvlftCIyLBgsisT2jmUnHbkrdQ1Qj/KD4cryOdpteKcKu/ObypDJYnARGfVnH7KB5ffaGYI/rhrIGZA8768QB1k8n55em8ku9B+ekX9NbVVIctWI4mUfIw8Z0GgD3X5Qyoi6vq2bNIKLo+kU5+QTzfwhH1jZBGU2Fcr/8ofYYOjPGlRuilvUlbBVJN5Q1Gi3hMV3k8q6qD8qPjtaoVt7oTKUTUqEIB0kmhGhFFF/xn4Az07fzzAorv3gDKss1QHy3lZNoaIxZYN9dtp71XjXfb9svg3NNwS/llY22dup75y7mZc=
+branches:
+  only:
+  - master
+git:
+  depth: 10
+sudo: false
+addons:
+  apt:
+    packages:
+    - build-essential
+    - git
+    - libgnome-keyring-dev
+    - fakeroot
