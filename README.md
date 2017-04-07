@@ -1,5 +1,5 @@
 # atom-underscore-string [![Build Status](https://travis-ci.org/MethodGrab/atom-underscore-string.svg?branch=master)](https://travis-ci.org/MethodGrab/atom-underscore-string)
-> Wraps [underscore.string](https://github.com/epeli/underscore.string) for use in Atom.
+> Wraps [underscore.string](https://github.com/epeli/underscore.string)’s string manipulation functions for use in Atom.
 
 
 ## Getting Started

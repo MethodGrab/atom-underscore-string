@@ -2,7 +2,7 @@
   "name": "underscore-string",
   "main": "./lib/underscore-string",
   "version": "0.1.0",
-  "description": "String manipulation functions",
+  "description": "Wraps underscore.string’s string manipulation functions for use in Atom",
   "keywords": [
     "underscore.string",
     "string",
