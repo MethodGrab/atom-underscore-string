@@ -19,8 +19,6 @@ const update = _ => {
 	return fs.writeFileSync( file, data );
 };
 
-update();
-
 module.exports = {
 	commands,
 	activationCommands,

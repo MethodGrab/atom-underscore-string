@@ -10,9 +10,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "build": "npm run update-menus && npm run update-activation-commands",
-    "update-menus": "node ./helper/build-menus.js",
-    "update-activation-commands": "node ./helper/build-activation-commands.js"
+    "build": "node ./helper/build.js"
   },
   "activationCommands": {
     "atom-workspace": [
