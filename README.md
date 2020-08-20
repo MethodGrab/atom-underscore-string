@@ -1,4 +1,7 @@
 # atom-underscore-string [![Build Status](https://travis-ci.org/MethodGrab/atom-underscore-string.svg?branch=master)](https://travis-ci.org/MethodGrab/atom-underscore-string)
+
+[![apm](https://img.shields.io/apm/v/underscore-string)](https://atom.io/packages/underscore-string)
+
 > Wraps [underscore.string](https://github.com/epeli/underscore.string)’s string manipulation functions for use in Atom.
 
 
